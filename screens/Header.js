@@ -11,10 +11,10 @@ const Header = ({Heading }) => {
 
  }
   return (
-      <View>
+     
     <Appbar.Header
     theme = {theme}
-    style ={{flexDirection :"row" , justifyContent:"center"  , backgroundColor:"#00aaff", }}
+    style ={{flexDirection :"row" , justifyContent:"center"  , backgroundColor:"#00aaff" }}
     >
       <Title style = {{ color : "white"  }}>
       
@@ -22,7 +22,7 @@ const Header = ({Heading }) => {
        
       </Title>
     </Appbar.Header>
-    </View>
+    
   );
 
 };

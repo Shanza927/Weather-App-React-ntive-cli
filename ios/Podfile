@@ -12,6 +12,10 @@ target 'Weatherapp' do
     :hermes_enabled => false
   )
 
+  pod 'react-native-video', :path => '../node_modules/react-native-video'
+
+  pod 'RNScreens', :path => '../node_modules/react-native-screens'
+
   target 'WeatherappTests' do
     inherit! :complete
     # Pods for testing
